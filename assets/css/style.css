@@ -27,6 +27,9 @@
   bottom: 0; 
   right: 0;
 }
+.myself::before {
+  content: "Passionate Computer Engineering professional with a knack for problem-solving and innovation.Experienced in Python programming, AI, and adept at teaching assistance.Demonstrated ability as a technical team member in national programming and AI competitions.Self-driven, quick learner with a curious mind, dedicated to tackling complex challenges.Seeking opportunities to apply skills and contribute to impactful projects in the tech industry.";
+}
 
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 .social {
@@ -661,6 +664,9 @@ small {
   }
   #intro.section .container *:not(span) {
     padding: 0;
+  }
+  .myself::before {
+    content: "Passionate Computer Engineering professional skilled in Python programming, AI, and teaching. Experienced in national programming competitions. Seeking impactful tech projects.";
   }
   .card .card-content .card-title {
     font-size: 20px;
